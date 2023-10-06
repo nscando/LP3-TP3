@@ -13,21 +13,16 @@ namespace LP3_TP3
         {
         protected void Page_Load ( object sender, EventArgs e )
             {
-            if ( !IsPostBack )
-                {
-                // Puedes realizar acciones al cargar la página por primera vez aquí
-                }
+
             }
 
         protected void ButtonAgregar_Click ( object sender, EventArgs e )
             {
-            // Verifica que se haya ingresado un monto y que ambos DropDownList tengan opciones seleccionadas
             if ( !string.IsNullOrEmpty(TextBoxMonto.Text) && DropDownCuenta.SelectedIndex >= 0 && DropDownTipo.SelectedIndex >= 0 )
                 {
-                // Obtiene el valor seleccionado del DropDownList de "tipo"
+
                 int tipo = Convert.ToInt32(DropDownTipo.SelectedValue);
 
-                // Verifica que el valor del tipo sea 0 o 1
                 if ( tipo == 0 || tipo == 1 )
                     {
                     // Realiza la inserción a través del SqlDataSource

@@ -14,6 +14,7 @@
                 <h4 class="mb-3">CUENTAS:</h4>
                 <p class="mb-3">
                     <asp:HyperLink ID="HyperLinkVolver" runat="server" CssClass="btn btn-secondary" NavigateUrl="~/Principal.aspx">Volver</asp:HyperLink>
+                    <br />
                 </p>
                 <div class="form-group">
                     <asp:Label ID="LabelDescripcion" runat="server" Text="Descripción: " CssClass="mr-2"></asp:Label>
