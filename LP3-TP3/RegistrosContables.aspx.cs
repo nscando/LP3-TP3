@@ -18,7 +18,6 @@ namespace LP3_TP3
 
                 if ( tipo == 0 || tipo == 1 )
                     {
-                    // Realiza la inserción a través del SqlDataSource
                     SqlDataSourceRegistros.Insert();
                     GridViewRegistros.DataBind();
                     ClearControls();
