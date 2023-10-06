@@ -11,7 +11,7 @@ namespace LP3_TP3
     {
 
 
-    public partial class Principal
+    public partial class RegistrosContables
         {
 
         /// <summary>
@@ -33,93 +33,102 @@ namespace LP3_TP3
         protected global::System.Web.UI.WebControls.HyperLink HyperLinkVolver;
 
         /// <summary>
-        /// Control LabelDescripcion.
+        /// Control LabelCuenta.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LabelDescripcion;
+        protected global::System.Web.UI.WebControls.Label LabelCuenta;
 
         /// <summary>
-        /// Control TextBoxDescripcion.
+        /// Control DropDownCuenta.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxDescripcion;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownCuenta;
 
         /// <summary>
-        /// Control agregarCuentas.
+        /// Control LabelMonto.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button agregarCuentas;
+        protected global::System.Web.UI.WebControls.Label LabelMonto;
 
         /// <summary>
-        /// Control LabelBD.
+        /// Control TextBoxMonto.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LabelBD;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxMonto;
 
         /// <summary>
-        /// Control ListBox1.
+        /// Control LabelTipo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListBox ListBox1;
+        protected global::System.Web.UI.WebControls.Label LabelTipo;
 
         /// <summary>
-        /// Control TextBoxEdicion.
+        /// Control DropDownTipo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxEdicion;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownTipo;
 
         /// <summary>
-        /// Control btnEditar.
+        /// Control ButtonAgregar.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnEditar;
+        protected global::System.Web.UI.WebControls.Button ButtonAgregar;
 
         /// <summary>
-        /// Control btnEliminar.
+        /// Control LabelMensaje.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnEliminar;
+        protected global::System.Web.UI.WebControls.Label LabelMensaje;
 
         /// <summary>
-        /// Control SqlDataCuentas.
+        /// Control GridViewRegistros.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataCuentas;
+        protected global::System.Web.UI.WebControls.GridView GridViewRegistros;
 
         /// <summary>
-        /// Control SqlDataCuentas2.
+        /// Control SqlDataSourceCuentas.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataCuentas2;
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSourceCuentas;
+
+        /// <summary>
+        /// Control SqlDataSourceRegistros.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSourceRegistros;
         }
     }

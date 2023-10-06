@@ -32,17 +32,23 @@ namespace LP3_TP3
 
         protected void agregarCuentas_Click ( object sender, EventArgs e )
             {
-            int result = SqlDataCuentas.Insert();
-
-            if ( result != 0 )
+            if ( !string.IsNullOrWhiteSpace(TextBoxDescripcion.Text) )
                 {
-                LabelBD.Text = "Registro Agregado Correctamente!" + result.ToString();
-                TextBoxDescripcion.Text = "";
+                int result = SqlDataCuentas.Insert();
+
+                if ( result != 0 )
+                    {
+                    LabelBD.Text = "Registro Agregado Correctamente!" + result.ToString();
+                    TextBoxDescripcion.Text = "";
+                    }
+                else
+                    {
+                    LabelBD.Text = "Error!";
+                    }
                 }
             else
                 {
-                LabelBD.Text = "Error!";
-
+                LabelBD.Text = "El campo Descripción no puede estar vacío.";
                 }
             }
 
